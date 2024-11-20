@@ -18,11 +18,7 @@ nilai_kalkulus = [nilai[2] for nilai in nilai_siswa]
 print(f"\nSemua nilai kalkulus: {nilai_kalkulus}")
 
 # Menampilkan nilai kalkulus untuk siswa ke-2 (jika ada)
-if jumlah_siswa > 1:
-    nilai_kalkulus_siswa2 = nilai_siswa[1][2]
-    print(f"Nilai kalkulus siswa 2: {nilai_kalkulus_siswa2}")
-else:
-    print("Tidak ada siswa ke-2.")
+
 
 # Menampilkan semua nilai geometri (kolom ke-2)
 nilai_geometri = [nilai[1] for nilai in nilai_siswa]
